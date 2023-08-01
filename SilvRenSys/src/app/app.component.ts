@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'SilvRenSys';
+  title = 'Rohan Udas';
+  names:string[]=["Rohan","Bishnu","Ashik","Raghu","Shreya","Pukar"];
+  changename(){
+
+
+    this.title = "Rohan"
+  }
 }
